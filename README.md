@@ -1,2 +1,64 @@
 # Go-Blockchain-Suite
-高性能、模块化、全原创的 Go 语言区块链核心开发套件，集成随机数生成、加密算法、共识机制、分布式账本、智能合约、跨链交互、链上数据处理等区块链全场景功能，代码轻量高效、无冗余、无重复，适用于公链 / 联盟链 / 私链开发、区块链学习研究、企业级区块链项目落地。
+🚀 高性能、模块化、全原创的Go语言区块链核心开发套件 | 适用于公链/联盟链/私链开发
+
+## 项目介绍
+本项目基于Go语言开发，40个区块链核心模块，覆盖随机数生成、加密算法、共识机制、分布式账本、智能合约、跨链交互、链上数据处理、零知识证明、预言机等全场景功能。代码轻量高效、无冗余、可直接编译运行，适用于区块链学习研究、企业级项目落地、二次开发定制。
+
+## 包含文件清单（40个）
+1. BLOCKCHAIN_RANDOM_GENERATOR.go
+2. BLOCK_HASH_CALCULATOR.go
+3. GENESIS_BLOCK_CREATOR.go
+4. POS_CONSENSUS_ENGINE.go
+5. POW_MINING_ENGINE.go
+6. MERKLE_TREE_BUILDER.go
+7. WALLET_ADDRESS_GENERATOR.go
+8. TRANSACTION_SIGNER.go
+9. TRANSACTION_VERIFIER.go
+10. BLOCKCHAIN_SYNC_MANAGER.go
+11. CROSS_CHAIN_BRIDGE_CORE.go
+12. SMART_CONTRACT_DEPLOYER.go
+13. SMART_CONTRACT_EXECUTOR.go
+14. BLOCK_VALIDATOR_CHECKER.go
+15. NODE_PEER_MANAGER.go
+16. CHAIN_DATA_ENCRYPTOR.go
+17. CHAIN_DATA_DECRYPTOR.go
+18. TRANSACTION_POOL_MANAGER.go
+19. BLOCKCHAIN_FORK_RESOLVER.go
+20. DIGITAL_ASSET_LEDGER.go
+21. BLOCK_REWARD_DISTRIBUTOR.go
+22. CHAIN_STATE_SAVER.go
+23. CHAIN_STATE_LOADER.go
+24. P2P_MESSAGE_ROUTER.go
+25. CONTRACT_EVENT_LOGGER.go
+26. BLOCK_HEADER_PARSER.go
+27. GAS_FEE_CALCULATOR.go
+28. DOUBLE_SPENDING_CHECKER.go
+29. CHAIN_API_GATEWAY.go
+30. VALIDATOR_NODE_MANAGER.go
+31. SIDE_CHAIN_BRIDGE.go
+32. ZK_PROOF_GENERATOR.go
+33. BLOCKCHAIN_MONITOR.go
+34. TRANSACTION_BATCH_PROCESSOR.go
+35. CHAIN_TOKEN_STANDARD.go
+36. NODE_CONNECTION_CHECKER.go
+37. BLOCK_DATA_COMPRESSOR.go
+38. ORACLE_DATA_FETCHER.go
+39. CONSENSUS_VOTE_COUNTER.go
+40. FULL_BLOCKCHAIN_CORE.go
+
+## 功能说明
+- 基础核心：创世区块创建、区块哈希计算、区块校验、分叉解决
+- 共识机制：PoW工作量证明、PoS权益证明、验证节点管理
+- 账户安全：钱包生成、交易签名/验签、数据加密/解密
+- 交易系统：交易池、批量处理、燃气费计算、双花检测
+- 分布式网络：P2P路由、节点管理、链数据同步
+- 高级功能：智能合约部署/执行、跨链桥、侧链、零知识证明、预言机
+- 工具模块：数据压缩、状态持久化、链上监控、通证发行
+
+## 运行方式
+```bash
+# 编译运行单个模块
+go run 文件名.go
+
+# 整体构建
+go build -o blockchain-core
